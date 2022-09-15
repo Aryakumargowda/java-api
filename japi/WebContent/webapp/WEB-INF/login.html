@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<style>
+    body{
+        color:rgb(215, 243, 148);
+        background: rgb(114, 109, 100);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h1{
+        padding-bottom: 1.5em;
+    }
+    td{
+        font-size: 1.3em;
+        padding:1em
+    }
+    input{
+        border:solid black;
+        width:15em;
+        height:2em;
+    }
+    button{
+        height: 3em;
+        width:6em;
+        background: white;
+        cursor:pointer;
+        border-radius: 1em;
+    }
+    button:hover{
+        background: rgb(215, 243, 148);
+        box-shadow: 4px 4px 15px rgb(215, 243, 148),
+        -4px -4px 15px rgb(215, 243, 148);
+    }
+</style>
+<body>
+    <h1>LOGIN PAGE</h1>
+    <table>
+    <tr>
+    <td>Username:</td>
+    <td> <input type="text" id="user" name="user"></td>
+    </tr>
+    <tr>
+     <td>Password:</td>
+     <td><input type="password" id="pass" name="user"></td>
+    </tr>
+</table>
+<button type="submit">SUBMIT</button>
+</body>
+</html>
